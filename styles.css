@@ -6,7 +6,29 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
+    text-align: center;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #007BFF;
+    color: #fff;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .header .sub-heading {
+    font-size: 18px;
+    margin-top: 10px;
   }
   
   /* Container Styles */
@@ -16,7 +38,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 300px;
-    text-align: center;
+    margin-top: 20px; /* Space between header and form */
   }
   
   /* Form Styles */
